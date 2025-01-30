@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    
+    <header>
+        <div id="welcome-container">
+            <h1 id="welcomeMessage"></h1>
+        </div>
+        <div id="account-container">
+            <div id="account-icon" >
+                <span id="account-name">Cuenta</span>
+            </div>
+            <div id="user-info">
+                <!-- Aquí se mostrarán los detalles del usuario cuando se haga clic en el icono -->
+            </div>
+        </div>
+    </header>
+
+    <button id="logoutBtn">Cerrar sesión</button>
+    
+    <div class="container">
+        <h1>Dashboard</h1>
+        <div id="menu">
+            <h2>Menú</h2>
+            <button id="viewHistory">Ver Historias Clínicas</button>
+            <button id="createRecord">Crear Historia Clínica</button>
+        </div>
+        <div id="historySection" >
+            <h2>Historias Clínicas</h2>
+            <ul id="historyList"></ul>
+        </div>
+        <div id="createRecordSection" >
+            <h2>Crear Historia Clínica</h2>
+            <form id="createRecordForm">
+                <input type="text" id="patientId" placeholder="ID del Paciente" required>
+                <textarea id="medicalHistory" placeholder="Historia Médica" required></textarea>
+                <input type="file" id="fileUpload" multiple>
+                <button type="submit">Guardar Historia Clínica</button>
+            </form>
+        </div>
+        <div id="createRecordSection">
+            <h2>Crear Historia Clínica</h2>
+            <form id="createRecordForm">
+                <input type="text" id="patientId" placeholder="ID del Paciente" required>
+                <textarea id="medicalHistory" placeholder="Historia Médica" required></textarea>
+                <label for="clinicSelect">Selecciona la Clínica:</label>
+                <select id="clinicSelect" required></select>
+                <input type="file" id="fileUpload" multiple>
+                <button type="submit">Guardar Historia Clínica</button>
+            </form>
+        </div>
+        
+    </div>
+    <script src="./js/dashboard.js"></script>
+</body>
+</html>
