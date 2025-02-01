@@ -1,6 +1,6 @@
 // Cargar clínicas
-const url = 'http://localhost:3000/api/admin/users';
-//const url = 'https://proyecto-hc.vercel.app/api/admin/users';
+//const url = 'http://localhost:3000/api/admin/users';
+const url = 'https://proyecto-hc.vercel.app/api/admin/users';
 
 document.addEventListener('DOMContentLoaded', () => {
     const token = localStorage.getItem('token'); // Obtener el token almacenado en el localStorage

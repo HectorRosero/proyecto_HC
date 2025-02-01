@@ -1,4 +1,5 @@
-const url='http://localhost:3000/api/auth/registro';
+//const url='http://localhost:3000/api/auth/registro';
+const url='https://proyecto-hc.vercel.app/api/auth/registro';
 document.getElementById('registerForm').addEventListener('submit', async (e) => {
     e.preventDefault();
     const username = document.getElementById('regUsername').value;

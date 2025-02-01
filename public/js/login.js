@@ -1,4 +1,5 @@
-const url = 'http://localhost:3000/api/auth/login'; 
+//const url = 'http://localhost:3000/api/auth/login';
+const url = 'https://proyecto-hc.vercel.app/api/auth/login';
 document.getElementById('loginForm').addEventListener('submit', async (e) => {
     e.preventDefault();
     const username = document.getElementById('username').value;
