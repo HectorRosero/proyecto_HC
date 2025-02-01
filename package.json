@@ -1,13 +1,13 @@
 {
   "name": "proyecto-hc-salud",
   "version": "0.0.1",
-  "description": "Este proyecto pretende crear historias clinicas de los pacientes para que las clinicas o ips puedan verlas optimizando y agilizando la información",
+  "description": "Este proyecto pretende crear historias clínicas de los pacientes para que las clinicas o IPS puedan visualizarlas optimizando y agilizando la información",
   "main": "src/app.js",
   "type": "module",
   "scripts": {
     "start": "node src/app.js"
   },
-  "author": "Jhonathan Giraldo",
+  "author": "Hector Rosero",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",

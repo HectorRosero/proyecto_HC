@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles2.css">
     <title>Dashboard</title>
 </head>
 <body>
@@ -40,22 +40,19 @@
             <form id="createRecordForm">
                 <input type="text" id="patientId" placeholder="ID del Paciente" required>
                 <textarea id="medicalHistory" placeholder="Historia Médica" required></textarea>
-                <input type="file" id="fileUpload" multiple>
-                <button type="submit">Guardar Historia Clínica</button>
-            </form>
-        </div>
-        <div id="createRecordSection">
-            <h2>Crear Historia Clínica</h2>
-            <form id="createRecordForm">
-                <input type="text" id="patientId" placeholder="ID del Paciente" required>
-                <textarea id="medicalHistory" placeholder="Historia Médica" required></textarea>
                 <label for="clinicSelect">Selecciona la Clínica:</label>
-                <select id="clinicSelect" required></select>
+                <select id="clinicSelect" required>
+                    <option value="clinic1">Clínica Imbanaco</option>
+                    <option value="clinic2">Clínica Tequendama</option>
+                    <option value="clinic3">Clínica de Occidente</option>
+                    <option value="clinic4">Clínica Fundación Valle del Lili</option>
+                    <option value="clinic5">Clínica Rafael Uribe Uribe</option>
+                </select>
                 <input type="file" id="fileUpload" multiple>
                 <button type="submit">Guardar Historia Clínica</button>
             </form>
         </div>
-        
+
     </div>
     <script src="./js/dashboard.js"></script>
 </body>
